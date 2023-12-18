@@ -13,4 +13,8 @@ router.get('/contact', (req, res) => {
   res.render('pages/contact', { title: 'Página de Contacto' });
 });
 
+router.get('/login', (req, res) => {
+  res.render('pages/login', { title: 'Página de Registro' });
+});
+
 module.exports = router;
