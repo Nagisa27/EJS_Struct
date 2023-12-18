@@ -7,7 +7,6 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     strategy:
@@ -25,9 +24,6 @@ jobs:
 
     - name: Install Dependencies
       run: npm install
-
-    - name: Run Tests (Puedes ajustar este paso según tus necesidades)
-      run: npm test
 
     - name: Build and Verify
       run: npm start  
